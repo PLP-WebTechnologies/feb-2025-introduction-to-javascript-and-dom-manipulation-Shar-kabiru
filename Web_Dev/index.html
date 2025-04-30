@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+    <html>
+        <head> 
+            <meta charset="UTF-8"> 
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+            <title>FPFK Kawangware Church</title> <link rel="stylesheet" href="css/styles.css"> 
+            <script src="script.js" defer></script> 
+        </head> 
+        <body> 
+            <nav class="navbar"> 
+                <a href="#" class="logo">FPFK Kawangware</a> 
+                <button class="menu-toggle" aria-label="Toggle menu">☰</button> 
+                <ul class="nav-links"> 
+                    <li><a href="#">Home</a></li> 
+                    <li><a href="#">About</a></li> 
+                    <li><a href="#">Services</a></li> 
+                    <li><a href="#">Ministries</a></li> 
+                    <li><a href="#">Contact</a></li> 
+                </ul> 
+            </nav>
+
+            <div class="container">
+                <header>
+                    <h1>Welcome to FPFK Kawangware, A House of Prayer.</h1>
+                    <img src="https://images.pexels.com/photos/133699/pexels-photo-133699.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Church Image" width="500">
+                    <img src="images/pexels-pixabay-208432.jpg" alt="Church Image" width="500">
+                </header>
+    
+                <main>
+                        <h2>2025 Theme Verse</h2>
+                        <h3>Hebrews 10:25</h3>
+                        <p>Let us not give up meeting together, as some are in the habit of doing, 
+                        but encouraging one another, and all the more as you see the Day approaching.</p>
+                    
+                        <h2>Church Core Values</h2>
+                        <ol type="I">
+                            <li>Faith in God</li>
+                            <li>Love for One Another</li>
+                            <li>Service to the Community</li>
+                            <li>Integrity in All We Do</li>
+                        </ol>
+                        <h3>You are Loved</h3>
+                        <p>Be Blessed with the song below</p>
+                        <audio controls>
+                            <source src="audio/audio1.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    
+                        <!-- Video Element -->
+                        <h3>Welcome Video</h3>
+                        <video controls width="300">
+                            <source src="video/video1.mp4" type="video/mp4">
+                            Your browser does not support the video element.
+                        </video>
+                    
+                        <h3>Member Information</h3>
+                        <table border="1"> 
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Address</th>
+                                    <th>Mobile</th>
+                                    <th>Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>John Muli</td>
+                                    <td>123 Kawangware Rd</td>
+                                    <td>0712345678</td>
+                                    <td>jmuli@gm.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Jane Amani</td>
+                                    <td>456 Ngong Rd</td>
+                                    <td>0798765432</td>
+                                    <td>jamani@gm.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Peter Kimani</td>
+                                    <td>789 Mombasa Rd</td>
+                                    <td>0723456789</td>
+                                    <td>pkimani@gm.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Mary Wambui</td>
+                                    <td>321 Thika Rd</td>
+                                    <td>0734567890</td>
+                                    <td>mwambui@gm.com</td>
+                                </tr>
+                                <tr>
+                                    <td>James Ochieng</td>
+                                    <td>654 Kisumu Rd</td>
+                                    <td>0745678901</td>
+                                    <td>jochieng@gm.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    
+                        <!-- Registration Form -->
+                        <h2>To Register, Fill the Form Below</h2>
+                        <form action="#" method="post">
+                            <label for="name">Full Name:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+                    
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                    
+                            <label for="password">Password:</label><br>
+                            <input type="password" id="password" name="password" placeholder="Enter a password" required><br><br>
+                    
+                            <label for="dob">Date of Birth:</label><br>
+                            <input type="date" id="dob" name="dob" required><br><br>
+                    
+                            <!-- Dropdown for Gender -->
+                            <label for="gender">Gender:</label><br>
+                            <select id="gender" name="gender" required>
+                                <option value="" disabled selected>Select your gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select><br><br>
+                    
+                            <!-- Radio Buttons for Membership Status -->
+                            <p>Are you a member of FPFK?</p>
+                            <input type="radio" id="member_yes" name="member" value="yes" required>
+                            <label for="member_yes">Yes</label><br>
+                            <input type="radio" id="member_no" name="member" value="no">
+                            <label for="member_no">No</label><br><br>
+                    
+                            <!-- Checkboxes for Interests -->
+                            <p>What are you interested in? (Select all that apply):</p>
+                            <input type="checkbox" id="prayer" name="interest" value="prayer">
+                            <label for="prayer">Prayer Meetings</label><br>
+                            <input type="checkbox" id="bible_study" name="interest" value="bible_study">
+                            <label for="bible_study">Bible Study</label><br>
+                            <input type="checkbox" id="community_service" name="interest" value="community_service">
+                            <label for="community_service">Community Service</label><br><br>
+                    
+                            <!-- Submit Button -->
+                            <input type="submit" value="Register">
+                        </form>
+                </main>
+                <aside class="sidebar">
+                    <h3>Upcoming Events</h3>
+                    <p>Sunday Service: 10:00 AM</p>
+                    <p>Bible Study: Thurday 5:30 PM</p>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Sermons</a></li>
+                        <li><a href="#">Give Online</a></li>
+                        <li><a href="#">Prayer Request</a></li>
+                    </ul>
+                </aside>
+    
+                <footer>
+                    <h3>More Info</h3>
+                    <p>Visit <a href="https://fpfk.or.ke/" target="_blank">FPFK HeadOffice</a> for more information.</p>
+                    <p>We are located in <a href="https://maps.app.goo.gl/rrjgqcuAWz9XgtxT7" target="_blank">Kawangware</a>.</p>
+                    <div class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <p>&copy; 2025 FPFK Kawangware. All rights reserved.</p>
+                </footer>
+            </div>
+        </body> 
+    </html>
